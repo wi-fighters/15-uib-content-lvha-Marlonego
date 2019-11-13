@@ -11,9 +11,6 @@ p {
   font-size: 20px;
 }
 
-
-
-
 button {
   background: none repeat scroll 0 0 transparent;
   border: 1px solid black;
@@ -22,8 +19,11 @@ button {
   font-size: 16px;
 }
 
-
 /* Task 1 */
+a:link {
+  background-color: darkslateblue;
+}
+
 a:visited {
   color: chartreuse
 }
@@ -42,6 +42,10 @@ button:hover {
   color: white;
 }
 
+button:active {
+  color: burlywood;
+}
+
 /* Task 3 */
 p::first-letter {
   color: blue;
@@ -49,6 +53,6 @@ p::first-letter {
 }
 
 /* Task 4 */
-p::first-line {
+h2+p::first-line {
   background-color: rgb(208, 198, 218);
 }
