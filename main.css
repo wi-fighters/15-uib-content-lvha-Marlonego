@@ -50,5 +50,5 @@ p::first-letter {
 
 /* Task 4 */
 p::first-line {
-  background-color: blueviolet;
+  background-color: rgb(208, 198, 218);
 }
